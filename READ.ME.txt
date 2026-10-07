@@ -1,0 +1,19 @@
+# Tevin's Tech Journal
+
+Welcome to my personal tech journal! This is a multi-page web project built from scratch while learning the foundations of HTML5 using VS Code. 
+
+## 🚀 Project Overview
+This repository tracks my web development learning curve. It features structured article entries, study logs, a weekly academic tracking grid, and an interactive connection portal.
+
+## 🛠️ Features Implemented (Milestones 1-5)
+* **Core Structure:** Established modern HTML5 blueprints, character encodings, and tab parameters.
+* **Text Hierarchy:** Organized headings, text breaks, and bulleted takeaways inside the page body.
+* **Navigation & Media:** Connected multiple pages using relative path anchors and embedded local images using responsive dimensional attributes.
+* **Data Grids:** Structured a weekly study routine using semantic table layouts.
+* **Interactive Forms:** Designed a user feedback section complete with descriptive labels, text inputs, and multi-selection checkboxes.
+
+## 📁 File Structure
+* `index.html` - The main dashboard containing my journal updates, study schedule, and form.
+* `about.html` - A secondary biography page linked seamlessly to the home screen.
+* `images/` - A dedicated asset directory storing local picture elements.
+

@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+<head>
+    <!--UTF-8 being the standard encoding for HTML documents
+        charset stands for Character Set
+        Charset UTF-8 is declared for the following reasons
+        1.It prevents text corruption
+        2.It protects against security vulnerabilities
+        3.It speeds up page loading times as browsers are designed to look for set declarations
+        within the 1st 1024bytes
+     -->
+    <meta charset="UTF-8">
+    <!--<head>is the container and <title> is the specific tag visible in browser tabs
+         and search results and bookmarks
+    -->
+    <title>Tevin's Tech Journal</title>
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+
+    <!--This is the official begin to CSS basic styling 09/24/2026-->
+    <style>
+       /*Overall body styling*/
+       body
+       {
+           background-image: url("Starry Crescent.webp");
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+           background-attachment: fixed; 
+                    
+            font-family: "Inter", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #060708;
+
+            margin-left: 50px;
+        }
+
+
+       h1
+       {
+          color: rgb(17, 0, 255);
+          font-family: "Algerian", sans-serif;
+          text-decoration: underline;
+       }
+       
+       form
+       {
+        max-width: 400px;
+        background-color: rgba(224, 187, 98, 0.4);
+        border-radius: 1cm;
+        padding: 20px;
+        
+       }
+
+
+    </style>
+
+</head>
+<Body>
+    <!--<br> is the tag used to break lines
+        <P> is the tag to skip a double line(begin new paragraphs)
+    -->
+    Welcome to Tevin's Tech Journal! Hop on and let us learn together.
+    <h1>A little Tech to Talk about!</h1>
+    <p>This is a simple paragraph about the tech topic we'll be discussing.<br>
+    I recently started out as a CS student at the University.<br>
+    Honestly, I am a bit nervous but also excited!</p>
+
+    <p>Today, we had our Kickstart meeting!<br>
+    I really enjoyed it and learned a lot!<br>
+    I had a chance to meet some really cool people, including a person who works for a top secret government project.<br>
+    The project, he said, is to be deployed in Canada and then rolled out to the rest of the world.<br>
+    Shhh!. That is our little secret.</p><br>
+    
+    <!--<ul> is used to give unordered list. It basically uses bullets
+        <ol> on the other hand,is used for ordered lists. Use type=(a,i,I,1) to decide which progression should be used
+        <li> is used in listings, as shown. open and close after every list item
+    -->
+
+     This is what I took home;<br>   
+<ul>
+    <li>Be precise </li>
+    <li>Be ready to learn</li>
+    <li>Do not be a Jack of all trades and a master of none </li>
+</ul>
+
+<!--Now this is where🚩🚩
+    <form> is used for data collection on a page
+    <fieldset> is used to group related elements in a form
+-->
+<!--TODO;
+      1.Learn how to store input data
+      2.Learn Drop-downs
+      3. Learn how to put measures to ensure data is accurate and valid
+
+-->
+<form>
+ 
+    <label for="username">Your Name:</label>
+    <input type="text" id="username" placeholder="e.g John Doe">
+
+    <p>
+        <label> What tech are you interested in?(select all that apply)</label><br>
+    
+
+        <input type="checkbox" id="tech--1" value="HTML"><br>
+        <label for="tech--1">HTML Structure</label><br>
+   
+        
+        <input type="checkbox" id="tech--2" value="css"><br>
+        <label for="tech--2">CSS Styling</label><br>
+    
+
+        <input type="checkbox" id="tech--3" value="Javascript"><br>
+        <label for="tech--3">JavaScript Programming</label><br>
+        <button type="submit">All done</button>
+
+    </p>
+  </fieldset>
+</form>
+
+<p><a href="about.html">Learn more (and not Jonasi) about Tevin</a></p><br>
+   <a href="https://www.linkedin.com/in/tevin-mwancha-0037553a2/">Connect on linkeldIn</a><br>
+   <a href="https://youtu.be/Aq5WXmQQooo?si=mESchVYsxH0BZg0v">Just to keep you Entertained</a>  
+
+
+</Body>
+</HTML>
